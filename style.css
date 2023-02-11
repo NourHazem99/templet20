@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 500px;
+}
+/* 
+section{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);   
+}
+section,.front,.back{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    transition: all 2s;
+}
+.front, .back{
+    position: absolute;
+}
+.front{
+    z-index: 1;
+}
+
+    transform: rotateY(180deg);
+
+
+
+section:hover{
+    transform: rotateY(180deg);
+
+} */
+
+
+
+section{
+    height: 100vh;
+    background-image: url(images/d1.jfif);
+    background-size: contain;
+    
+}
+.cs{
+    position: relative;
+    width: 200px;
+    height: 120px;
+    animation-name: change ;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+ @keyframes change{
+0%{left:0;}
+50%{left: 30%}
+100%{left: 70%;}
+ }
+
+.imeg{
+    position: absolute;
+}
+
+.s1{
+    animation-delay: 3s;
+    position: relative;
+    margin-left: 70%;
+    width: 200px;
+    height: 120px;
+    animation-name: shape ;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+ @keyframes shape{
+0%{right:0;}
+50%{right: 30%;}
+100%{right: 70%;} }
+   
+    
+.s2{
+    animation-delay:6s ;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    animation-name: hello ;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+ @keyframes hello{
+0%{left:0;}
+50%{left: 30%}
+100%{left: 70%;}
+ }
+
+
+.s3{
+    animation-delay: 9s;
+    position: relative;
+    margin-left: 70%;
+    width: 200px;
+    height: 120px;
+    animation-name: low;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+ @keyframes low{
+0%{right:0;}
+50%{right: 30%;}
+100%{right: 70%;} }
+   
+
+
+
+
+.s4{
+    animation-delay: 12s;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    animation-name: hi ;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+ @keyframes hi{
+0%{left:0;}
+50%{left: 30%}
+100%{left: 70%;}
+ }
+
+
+
+.s5{
+    animation-delay: 15s;
+    position: relative;
+    margin-left: 70%;
+    width: 200px;
+    height: 120px;
+    animation-name: two;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+ @keyframes two{
+0%{right:0;}
+50%{right: 30%;}
+100%{right: 70%;} }
+   
